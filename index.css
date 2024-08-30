@@ -1,0 +1,1295 @@
+.weather-icon {
+    margin-top: -17px;
+    height: 55px;
+    width: 55px;
+    position: relative;
+  }
+  .home {
+    margin-left: -28px;
+    text-decoration: none;
+    width: 154px;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+  }
+  .home-schedule,
+  .weather,
+  .weather-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .home-schedule {
+    width: 126px;
+    flex-direction: column;
+    padding: 0;
+  }
+  .weather,
+  .weather-wrapper {
+    flex-direction: row;
+  }
+  .weather {
+    height: 62px;
+    width: 256px;
+    overflow: hidden;
+    flex-shrink: 0;
+    padding: 16px 6px 8px;
+    opacity: 0.95;
+  }
+  .weather-wrapper {
+    width: 209px;
+    padding: 0 2px 5px;
+  }
+  .schedule,
+  .schedule-icon {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .schedule-icon {
+    height: 55px;
+    width: 55px;
+  }
+  .schedule {
+    text-decoration: none;
+    align-self: stretch;
+    color: inherit;
+  }
+  .frame-wrapper,
+  .schedule-parent,
+  .schedule-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .schedule-wrapper {
+    flex: 1;
+    flex-direction: column;
+    padding: 10px 0 0;
+    margin-left: -10px;
+  }
+  .frame-wrapper,
+  .schedule-parent {
+    flex-direction: row;
+  }
+  .schedule-parent {
+    flex: 1;
+  }
+  .frame-wrapper {
+    width: 215px;
+    padding: 0 8px;
+    box-sizing: border-box;
+  }
+  .study-icon {
+    margin-top: -18px;
+    height: 55px;
+    width: 55px;
+    position: relative;
+  }
+  .study1 {
+    margin-left: -27px;
+    text-decoration: none;
+    width: 154px;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+  }
+  .study,
+  .study-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+  }
+  .study-wrapper {
+    width: 127px;
+    flex-direction: column;
+    padding: 0;
+  }
+  .study {
+    align-self: stretch;
+    height: 62px;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: 14px 6px 11px;
+  }
+  .my-tasks-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55px;
+    height: 55px;
+  }
+  .my-tasks {
+    text-decoration: none;
+    width: 154px;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .my-tasks-wrapper {
+    width: 122px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px 0 0;
+    box-sizing: border-box;
+  }
+  .caretdown-icon {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .frame-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .blank-line {
+    margin: 0;
+  }
+  .all-25-to-container {
+    text-decoration: none;
+    width: 107px;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .all-to-do-done,
+  .frame-group {
+    display: flex;
+    align-items: flex-start;
+  }
+  .all-to-do-done {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 5px;
+    text-align: left;
+    font-size: 15px;
+    color: #6b719f;
+  }
+  .frame-group {
+    position: absolute;
+    top: 16px;
+    left: 45px;
+    width: 154px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 7px;
+  }
+  .my-tasks-instance {
+    height: 123px;
+    flex: 1;
+    position: relative;
+  }
+  .tasks {
+    width: 211px;
+    flex-direction: row;
+    padding: 0 6px;
+    box-sizing: border-box;
+  }
+  .study-tasks,
+  .study-tasks-settings,
+  .tasks {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .study-tasks {
+    width: 256px;
+    flex-direction: column;
+    gap: 38px;
+    flex-shrink: 0;
+  }
+  .study-tasks-settings {
+    width: 209px;
+    flex-direction: row;
+    padding: 0 2px 259px;
+    box-sizing: border-box;
+  }
+  .settings-icon,
+  .settings2 {
+    position: relative;
+    flex-shrink: 0;
+  }
+  .settings-icon {
+    height: 45px;
+    width: 45px;
+  }
+  .settings2 {
+    align-self: stretch;
+  }
+  .settings,
+  .settings1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .settings1 {
+    flex: 1;
+    flex-direction: column;
+    padding: 13px 0 0;
+    margin-left: -5px;
+  }
+  .settings {
+    width: 180px;
+    flex-direction: row;
+  }
+  .frame-child,
+  .frame-parent {
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .frame-child {
+    width: 244px;
+    height: 203px;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .frame-parent {
+    width: 256px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 188px 11px 28px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 39px;
+  }
+  .today-march-16 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 600;
+  }
+  .date {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .preview-icon {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    max-height: 100%;
+    width: 80.7px;
+  }
+  .bruce-wayne1 {
+    text-decoration: none;
+    position: absolute;
+    top: 17px;
+    left: 70px;
+    font-weight: 300;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 143px;
+    height: 20px;
+  }
+  .bruce-wayne {
+    height: 73px;
+    width: 213px;
+    position: relative;
+    text-align: center;
+    font-size: 15px;
+  }
+  .date-bruce,
+  .welcome-back-child {
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  .date-bruce {
+    align-self: stretch;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5px 55px 8px 49px;
+    max-width: 100%;
+    gap: 20px;
+    text-align: left;
+    font-size: 32px;
+    color: #000;
+    font-family: "IBM Plex Sans";
+  }
+  .welcome-back-child {
+    height: 237.2px;
+    width: 1063.8px;
+    position: absolute;
+    margin: 0 !important;
+    top: 29.36px;
+    right: -22.8px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    border: 1px solid #000;
+    flex-shrink: 0;
+    transform: rotate(-2.4deg);
+    transform-origin: 0 0;
+  }
+  .welcome-back-to {
+    flex: 1;
+    position: relative;
+    font-weight: 600;
+  }
+  .welcome-back1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 24px 0 14px;
+  }
+  .ready-to-get {
+    margin: 0;
+    height: 70px;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    font-weight: 700;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .arrow-filled-head-swirl-medium-icon {
+    height: 108.6px;
+    width: 110.2px;
+    position: absolute;
+    margin: 0 !important;
+    right: -80.2px;
+    bottom: -48.6px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+    z-index: 1;
+  }
+  .ready-to-get-started-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: relative;
+    max-width: 100%;
+    font-size: 48px;
+    font-family: "League Spartan";
+  }
+  .frame-wrapper2,
+  .welcome-back-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .welcome-back-parent {
+    align-self: stretch;
+    justify-content: flex-start;
+    gap: 31px;
+  }
+  .frame-wrapper2 {
+    width: 333px;
+    justify-content: flex-end;
+    padding: 0 0 8px;
+    box-sizing: border-box;
+    min-width: 333px;
+  }
+  .start-tracking {
+    text-decoration: none;
+    flex: 1;
+    position: relative;
+    font-weight: 700;
+    color: inherit;
+    margin-top: 18px;
+  }
+  .start-tracking-wrapper {
+    width: 211px;
+    border-radius: 10px;
+    background-color: #040404;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5px 0 30px 5px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    font-size: 24px;
+    font-family: "League Spartan";
+  }
+  .frame-parent1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+  }
+  .frame-wrapper1 {
+    width: 633px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 26px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .arrow-open-back-short-streaml {
+    height: 67px;
+    width: 50px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+    z-index: 1;
+  }
+  .abstract-flake-2-streamline-b-icon {
+    height: 110.6px;
+    width: 110.6px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .arrow-filled-head-swirl-medium-icon1 {
+    height: 107px;
+    width: 108.9px;
+    position: absolute;
+    margin: 0 !important;
+    right: 216.1px;
+    bottom: 47px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: contain;
+  }
+  .frame-div {
+    flex: 1;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #9fa5e3, #585b7d);
+    overflow: hidden;
+    justify-content: space-between;
+    padding: 14px 16px 84px 44px;
+    box-sizing: border-box;
+    position: relative;
+    gap: 20px;
+    z-index: 1;
+  }
+  .frame-div,
+  .welcome,
+  .welcome-back {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .welcome-back {
+    width: 1011px;
+    justify-content: flex-start;
+    position: relative;
+  }
+  .welcome {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 23px 0 20px;
+    box-sizing: border-box;
+  }
+  .average-completion-time {
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+  }
+  .hours1 {
+    border: 0;
+    background-color: transparent;
+    font-family: "League Spartan";
+    font-size: 32px;
+    outline: 0;
+    flex: 1;
+    position: relative;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+  }
+  .average-completion-hours,
+  .average-completion1,
+  .hours {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .hours {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 63px 0 58px;
+  }
+  .average-completion-hours,
+  .average-completion1 {
+    flex-direction: column;
+  }
+  .average-completion-hours {
+    align-self: stretch;
+    gap: 8px;
+  }
+  .average-completion1 {
+    width: 258px;
+    padding: 17.3px 0 0;
+    box-sizing: border-box;
+  }
+  .frame-item {
+    width: 3px;
+    flex: 1;
+    position: relative;
+    max-height: 100%;
+  }
+  .vector-wrapper {
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2px 0 0;
+    box-sizing: border-box;
+  }
+  .tasks-completed1 {
+    margin-top: -46px;
+    align-self: stretch;
+    position: relative;
+  }
+  .textarea {
+    border: 0;
+    background-color: transparent;
+    font-family: "League Spartan";
+    font-size: 36px;
+    outline: 0;
+    flex: 1;
+    position: relative;
+    font-weight: 700;
+    color: #000;
+    text-align: center;
+  }
+  .tasks-completed {
+    height: 108px;
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 44px 0 30px 5px;
+    box-sizing: border-box;
+    gap: 25px;
+    min-width: 171px;
+  }
+  .average-completion,
+  .completion-time,
+  .frame-parent2 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .frame-parent2 {
+    flex: 1;
+    justify-content: center;
+    gap: 6px;
+    min-width: 177px;
+  }
+  .average-completion,
+  .completion-time {
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .average-completion {
+    flex: 1;
+    gap: 61px;
+  }
+  .completion-time {
+    align-self: stretch;
+    padding: 0 24px;
+    box-sizing: border-box;
+  }
+  .recent-topics {
+    position: absolute;
+    top: 12px;
+    left: 23px;
+    display: inline-block;
+    width: 190px;
+    height: 28px;
+  }
+  .frame-inner {
+    background-color: #9fa5e3;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .frame-icon,
+  .frame-inner,
+  .recent-child,
+  .recent-inner {
+    text-decoration: none;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+  }
+  .recent-inner {
+    position: absolute;
+    top: 49.1px;
+    left: 43.9px;
+    border-radius: 15px;
+    background-color: #9fa5e3;
+    width: 247px;
+    height: 326.8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .frame-icon,
+  .recent-child {
+    background-color: #e6b3f9;
+  }
+  .frame-icon {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .recent-child {
+    position: absolute;
+    top: 34px;
+    left: 337px;
+    border-radius: 15px;
+    width: 282.4px;
+    height: 352.5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .view-all-child {
+    height: 14px;
+    width: 46px;
+    position: relative;
+    background-color: #e6b3f9;
+    display: none;
+  }
+  .view-all1 {
+    flex: 1;
+    position: relative;
+    font-size: 13px;
+    text-decoration: underline;
+    font-weight: 300;
+    font-family: "League Spartan";
+    color: #000;
+    text-align: left;
+    z-index: 1;
+  }
+  .recent,
+  .view-all {
+    box-sizing: border-box;
+  }
+  .view-all {
+    cursor: pointer;
+    border: 0;
+    padding: 1px 0 1px 2px;
+    background-color: #e6b3f9;
+    position: absolute;
+    top: 23px;
+    left: 222px;
+    width: 49px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+  }
+  .view-all:hover {
+    background-color: #b380c4;
+  }
+  .recent {
+    align-self: stretch;
+    height: 393px;
+    position: relative;
+    border: 1px solid #000;
+    overflow: hidden;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 32px;
+  }
+  .completion-tasks {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 35px;
+    min-width: 415px;
+    max-width: 100%;
+  }
+  .todays-tasks1 {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .todays-tasks {
+    width: 430px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 25px;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: 32px;
+  }
+  .clock-icon,
+  .clock1 {
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+  }
+  .clock1 {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .clock,
+  .clock1,
+  .h {
+    display: flex;
+  }
+  .clock {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 4px;
+  }
+  .h {
+    height: 33px;
+    flex: 1;
+    position: relative;
+    font-weight: 300;
+    align-items: center;
+  }
+  .paperclip {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 1px;
+  }
+  .clocks {
+    margin-bottom: -27px;
+    width: 143px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+  }
+  .clock-attachment-child {
+    height: 27px;
+    width: 145px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: none;
+  }
+  .attachment,
+  .rectangle-div {
+    position: absolute;
+    margin: 0 !important;
+  }
+  .attachment {
+    width: 212px;
+    bottom: -20px;
+    left: -119px;
+    font-weight: 300;
+    display: flex;
+    align-items: flex-end;
+  }
+  .rectangle-div {
+    height: 30px;
+    width: 115px;
+    top: 7px;
+    left: -3px;
+    background-color: #e1bfff;
+    z-index: 1;
+  }
+  .div {
+    height: 47px;
+    flex: 1;
+    position: relative;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    z-index: 2;
+  }
+  .attachment-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+  }
+  .playpause,
+  .playpause-icon {
+    cursor: pointer;
+    border: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+  }
+  .playpause {
+    padding: 0;
+    position: absolute;
+    top: 5px;
+    left: 77px;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .hour-minute {
+    height: 47px;
+    width: 124px;
+    position: relative;
+  }
+  .clock-attachment {
+    height: 67px;
+    width: 398px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 35px 10px 23px 2px;
+    box-sizing: border-box;
+    max-width: 100%;
+    gap: 20px;
+    z-index: 1;
+  }
+  .chapter-7-review {
+    height: 65px;
+    width: 406px;
+    position: absolute;
+    margin: 0 !important;
+    top: 13px;
+    left: 32px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #2e005d;
+    display: flex;
+    align-items: center;
+  }
+  .fight-crime {
+    margin: 0;
+    height: 51px;
+    width: 44px;
+  }
+  .task-time {
+    align-self: stretch;
+    border-radius: 15px;
+    border: 1px solid #9d98dd;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 25px 30px 15px;
+    position: relative;
+    gap: 10px;
+    max-width: 100%;
+  }
+  .clock-icon1,
+  .clock2,
+  .paperclip2 {
+    text-decoration: none;
+    height: 100%;
+    width: 100%;
+  }
+  .clock2,
+  .paperclip2 {
+    height: 32px;
+    width: 32px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .paperclip2 {
+    margin-bottom: -3px;
+  }
+  .attachment1 {
+    align-self: stretch;
+    position: relative;
+    font-weight: 300;
+  }
+  .attachments,
+  .clock-parent {
+    width: 212px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 3px;
+    box-sizing: border-box;
+  }
+  .clock-parent {
+    width: 398px;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 35px 2px 0;
+    row-gap: 20px;
+    max-width: 100%;
+  }
+  .feed-the-robins,
+  .min {
+    display: flex;
+    align-items: center;
+  }
+  .min {
+    margin-bottom: -4px;
+    height: 33px;
+    width: 79px;
+    position: relative;
+    font-weight: 300;
+    flex-shrink: 0;
+  }
+  .feed-the-robins {
+    height: 65px;
+    width: 406px;
+    position: absolute;
+    margin: 0 !important;
+    top: 13px;
+    left: 32px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #2e005d;
+    z-index: 1;
+  }
+  .add-new-task,
+  .task-details {
+    display: flex;
+    flex-shrink: 0;
+    max-width: 100%;
+  }
+  .task-details {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 18.3px;
+  }
+  .add-new-task {
+    border: 0;
+    outline: 0;
+    font-family: Mixed;
+    background-color: transparent;
+    width: 435px;
+    position: relative;
+    color: #1b0041;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .task-adder,
+  .todays {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .task-adder {
+    border-radius: 15px;
+    border: 1px dashed #000;
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    padding: 0 40px 19px;
+    max-width: 100%;
+    flex-shrink: 0;
+  }
+  .todays {
+    flex-direction: column;
+    gap: 39px;
+  }
+  .statistics,
+  .tasks1,
+  .todays {
+    display: flex;
+    max-width: 100%;
+  }
+  .tasks1 {
+    width: 525px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 12px;
+    box-sizing: border-box;
+    min-width: 525px;
+    text-align: left;
+    font-size: 24px;
+  }
+  .statistics {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 30px;
+    font-size: 23px;
+    color: #000;
+    font-family: "League Spartan";
+  }
+  .utopia,
+  .utopia-content {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .utopia {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 49px;
+  }
+  .utopia-content {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 27px 0 30px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    font-family: "Josefin Sans";
+  }
+  .header-content,
+  .macbook-pro-14-1 {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .header-content {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 35px;
+    max-width: calc(100% - 256px);
+  }
+  .macbook-pro-14-1 {
+    width: 100%;
+    position: relative;
+    background-color: rgba(241, 244, 251, 0.74);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 5px 0 0;
+    box-sizing: border-box;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 24px;
+    color: #7b84c6;
+    font-family: "League Spartan";
+  }
+  @media screen and (max-width: 1200px) {
+    .date-bruce {
+      padding-left: 24px;
+      padding-right: 27px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .frame-parent {
+      display: none;
+      padding-top: 122px;
+      padding-bottom: 20px;
+      box-sizing: border-box;
+    }
+    .today-march-16 {
+      font-size: 26px;
+    }
+    .ready-to-get {
+      font-size: 38px;
+    }
+    .frame-div {
+      flex-wrap: wrap;
+      padding-left: 22px;
+      box-sizing: border-box;
+    }
+    .hours1 {
+      font-size: 26px;
+    }
+    .textarea {
+      font-size: 29px;
+    }
+    .average-completion {
+      flex: 1;
+    }
+    .chapter-7-review,
+    .feed-the-robins,
+    .recent-topics,
+    .todays-tasks1 {
+      font-size: 26px;
+    }
+    .tasks1 {
+      flex: 1;
+    }
+    .statistics {
+      flex-wrap: wrap;
+    }
+    .header-content {
+      max-width: 100%;
+    }
+    .macbook-pro-14-1 {
+      padding-left: 20px;
+      padding-right: 20px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .study-tasks-settings {
+      padding-bottom: 168px;
+      box-sizing: border-box;
+    }
+    .date-bruce {
+      flex-wrap: wrap;
+    }
+    .frame-wrapper2 {
+      flex: 1;
+    }
+    .frame-parent1 {
+      flex-wrap: wrap;
+    }
+    .average-completion {
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    .completion-tasks {
+      gap: 17px;
+      min-width: 100%;
+    }
+    .task-time {
+      flex-wrap: wrap;
+    }
+    .todays {
+      gap: 19px;
+    }
+    .tasks1 {
+      min-width: 100%;
+    }
+    .utopia {
+      gap: 24px;
+    }
+    .header-content {
+      gap: 17px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .my-tasks,
+    .schedule,
+    .study1 {
+      font-size: 19px;
+    }
+    .study-tasks {
+      gap: 19px;
+    }
+    .settings2 {
+      font-size: 19px;
+    }
+    .frame-parent {
+      padding-top: 79px;
+      box-sizing: border-box;
+    }
+    .today-march-16 {
+      font-size: 19px;
+    }
+    .welcome-back-to {
+      font-size: 16px;
+    }
+    .ready-to-get {
+      font-size: 29px;
+    }
+    .welcome-back-parent {
+      gap: 15px;
+    }
+    .average-completion-time {
+      font-size: 18px;
+    }
+    .hours1 {
+      font-size: 19px;
+    }
+    .hours {
+      padding-left: 20px;
+      padding-right: 20px;
+      box-sizing: border-box;
+    }
+    .tasks-completed1 {
+      font-size: 18px;
+    }
+    .textarea {
+      font-size: 22px;
+    }
+    .frame-parent2 {
+      flex-wrap: wrap;
+    }
+    .average-completion {
+      gap: 15px;
+    }
+    .attachment,
+    .attachment1,
+    .chapter-7-review,
+    .div,
+    .h,
+    .recent-topics,
+    .todays-tasks1 {
+      font-size: 19px;
+    }
+    .clock-parent {
+      flex-wrap: wrap;
+    }
+    .feed-the-robins,
+    .min {
+      font-size: 19px;
+    }
+    .add-new-task {
+      font-size: 22px;
+    }
+  }
+  
